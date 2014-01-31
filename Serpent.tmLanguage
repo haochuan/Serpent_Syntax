@@ -878,7 +878,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(None|True|False|Ellipsis|NotImplemented)\b</string>
+			<string>\b(nil|true|false|Ellipsis|NotImplemented)\b</string>
 			<key>name</key>
 			<string>constant.language.srp</string>
 		</dict>
@@ -1107,7 +1107,7 @@
 		<dict>
 			<key>match</key>
 			<string>(?x)\b(
-                import|var|load|abs|cos|exp|idiv|int|log|pow|real|within|max|min|random|rem|round|sin|sqrt|tan|
+                require|var|load|abs|cos|exp|idiv|int|log|pow|real|within|max|min|random|rem|round|sin|sqrt|tan|
                 chr|count|find|hash|hex|insert|int|isalnum|isalpha|isdigit|islower|isspace|isupper|last|len|oct|ord|repr|reverse|set_len|str|strcat|subseq|tolower|toupper|uninsert|
                 array|append|clear|copy|count|flatten|index|insert|last|len|set_len|reverse|sort|resort|remove|subseq|unappend|uninsert|
                 clear|dict|get|has_key|keys|values|
