@@ -1,4 +1,7 @@
+# Serpent Syntax
 Sublime Text syntax file for Serpent
+
+[Read more about what is serpent here](https://www.cs.cmu.edu/~music/serpent/doc/serpent.htm)
 
 
 How to install:
